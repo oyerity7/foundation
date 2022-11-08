@@ -21,6 +21,7 @@ variable2 = tk.StringVar(root)
 variable1.set("currency")
 variable2.set("currency")
 #function To For Real Time Currency Conversion
+
  
 def RealTimeCurrencyConversion():
     c = CurrencyRates()
