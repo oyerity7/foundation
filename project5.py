@@ -2,6 +2,7 @@
 import tkinter as tk 
 from tkinter import *
 import tkinter.messagebox
+from forex_python.converter import CurrencyRates
 #GUI
 root = tk.Tk()
  
@@ -22,7 +23,6 @@ variable2.set("currency")
 #function To For Real Time Currency Conversion
  
 def RealTimeCurrencyConversion():
-    from forex_python.converter import CurrencyRates
     c = CurrencyRates()
  
     from_currency = variable1.get()
